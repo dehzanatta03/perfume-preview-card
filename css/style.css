@@ -1,0 +1,112 @@
+body{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    margin: 95px 27px 95px 27px;
+}
+
+.box-container{
+    background-color: var(--box-color);
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+    width: 338px;
+    height: 628px;
+    border-radius: 25px;
+}
+
+.perfume-img{
+    object-fit: cover;
+    width: 100%;
+    height: 314px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.perfume-subtitle{
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 40%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.perfume-title{
+    color: var(--title-color);
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.perfume-description{
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price-box{
+    font-family: 'Fraunces', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    color: var(--price-color);
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.price-discount{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart-btn{
+
+    background-color: var(--button-color);
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto 27px 17px 27px;
+    text-align: center;
+    width: 289px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+}
+
+.cart-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer{
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
