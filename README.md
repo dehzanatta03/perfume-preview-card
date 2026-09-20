@@ -1,4 +1,3 @@
-# perfume-preview-card
 # Pixel Perfect Perfume Card 🌸
 
 ## Table of contents
