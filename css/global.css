@@ -1,0 +1,16 @@
+/*Reset styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --title-color: #000000;
+    --text-color: #240000;
+    --price-color: #810B38;
+    --button-color: #810B38; 
+    --hover-color: #541A1A;
+    --background-color: #DCC3AA;
+    --box-color: #F1E2D1;
+}
